@@ -9,7 +9,7 @@ function LanguageSelector({ setLanguage }) {
   const sendOtp = async () => {
     if (!email) return alert("Enter email");
     try {
-      await fetch("http://localhost:5000/api/send-email-otp", {
+      await fetch("https://internarea-server.onrender.com/api/send-email-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ to_email: email }),
@@ -24,7 +24,7 @@ function LanguageSelector({ setLanguage }) {
 
   const verifyOtp = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/send-email-otp", {
+      const res = await fetch("https://internarea-server.onrender.com/api/send-email-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ to_email: email, otp: otpInput }),
