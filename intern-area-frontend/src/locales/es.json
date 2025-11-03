@@ -1,0 +1,11 @@
+{
+  "welcome": "Bienvenido",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "signup": "Registrarse",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "home": "Inicio",
+  "about": "Acerca de",
+  "contact": "Contáctenos"
+}

@@ -1,0 +1,14 @@
+{
+  "welcome": "Bienvenue",
+  "login": "Se connecter",
+  "logout": "Se déconnecter",
+  "profile": "Profil",
+  "home": "Accueil",
+  "internships": "Stages",
+  "jobs": "Emplois",
+  "courses": "Cours",
+  "viewMore": "Voir plus",
+  "editProfile": "Modifier le profil",
+  "save": "Enregistrer",
+  "cancel": "Annuler"
+}
